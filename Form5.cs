@@ -10,13 +10,11 @@ using System.Windows.Forms;
 
 namespace CMS__Calibration_Management_System_
 {
-    public partial class Form1 : Form
+    public partial class Form5 : Form
     {
-        public Form1()
+        public Form5()
         {
             InitializeComponent();
         }
-
-        
     }
 }

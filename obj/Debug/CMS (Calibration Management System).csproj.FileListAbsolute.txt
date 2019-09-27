@@ -29,3 +29,18 @@ C:\Users\etanik\Desktop\YET_Repositories\CMS-Calibration-Management-System-\obj\
 C:\Users\etanik\Desktop\YET_Repositories\CMS-Calibration-Management-System-\obj\Debug\CMS (Calibration Management System).csproj.CoreCompileInputs.cache
 C:\Users\etanik\Desktop\YET_Repositories\CMS-Calibration-Management-System-\obj\Debug\CMS (Calibration Management System).exe
 C:\Users\etanik\Desktop\YET_Repositories\CMS-Calibration-Management-System-\obj\Debug\CMS (Calibration Management System).pdb
+C:\Users\bbayrakli\Desktop\My_Repo\CMS-Calibration-Management-System-\bin\Debug\CMS (Calibration Management System).exe.config
+C:\Users\bbayrakli\Desktop\My_Repo\CMS-Calibration-Management-System-\bin\Debug\CMS (Calibration Management System).exe
+C:\Users\bbayrakli\Desktop\My_Repo\CMS-Calibration-Management-System-\bin\Debug\CMS (Calibration Management System).pdb
+C:\Users\bbayrakli\Desktop\My_Repo\CMS-Calibration-Management-System-\obj\Debug\CMS (Calibration Management System).csprojAssemblyReference.cache
+C:\Users\bbayrakli\Desktop\My_Repo\CMS-Calibration-Management-System-\obj\Debug\UserControl1.g.cs
+C:\Users\bbayrakli\Desktop\My_Repo\CMS-Calibration-Management-System-\obj\Debug\CMS (Calibration Management System)_MarkupCompile.cache
+C:\Users\bbayrakli\Desktop\My_Repo\CMS-Calibration-Management-System-\obj\Debug\CMS (Calibration Management System)_MarkupCompile.lref
+C:\Users\bbayrakli\Desktop\My_Repo\CMS-Calibration-Management-System-\obj\Debug\UserControl1.baml
+C:\Users\bbayrakli\Desktop\My_Repo\CMS-Calibration-Management-System-\obj\Debug\CMS (Calibration Management System).g.resources
+C:\Users\bbayrakli\Desktop\My_Repo\CMS-Calibration-Management-System-\obj\Debug\CMS__Calibration_Management_System_.Form2.resources
+C:\Users\bbayrakli\Desktop\My_Repo\CMS-Calibration-Management-System-\obj\Debug\CMS__Calibration_Management_System_.Properties.Resources.resources
+C:\Users\bbayrakli\Desktop\My_Repo\CMS-Calibration-Management-System-\obj\Debug\CMS (Calibration Management System).csproj.GenerateResource.cache
+C:\Users\bbayrakli\Desktop\My_Repo\CMS-Calibration-Management-System-\obj\Debug\CMS (Calibration Management System).csproj.CoreCompileInputs.cache
+C:\Users\bbayrakli\Desktop\My_Repo\CMS-Calibration-Management-System-\obj\Debug\CMS (Calibration Management System).exe
+C:\Users\bbayrakli\Desktop\My_Repo\CMS-Calibration-Management-System-\obj\Debug\CMS (Calibration Management System).pdb

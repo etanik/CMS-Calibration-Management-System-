@@ -75,7 +75,7 @@ namespace CMS__Calibration_Management_System_
 
         #endregion
 
-        readonly OleDbConnection baglanti = new OleDbConnection(@"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\etanik\Desktop\Database1.mdb");
+        readonly OleDbConnection baglanti = new OleDbConnection(@"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\Data\Database1.mdb");
         private readonly OleDbCommand emir = new OleDbCommand();
 
         public Form2()
@@ -160,6 +160,17 @@ namespace CMS__Calibration_Management_System_
 
                 dataGridView1.Rows.Clear();
 
+                dataGridView1.Rows.Add(13);
+
+                double[] frekans = { 5, 10, 20, 31.5, 50, 80, 100, 160, 315, 500, 1000, 2000, 3150 };
+                int i = 0;
+                foreach (double sayi in frekans)
+                {
+                    dataGridView1[0, i].Value = sayi;
+                    i++;
+                }
+                dataGridView1.AllowUserToAddRows = false;
+
                 foreach (Control ctrl in groupBox1.Controls)
                 {
                     if (ctrl is TextBox)
@@ -168,18 +179,15 @@ namespace CMS__Calibration_Management_System_
 
                         baglanti.Close();
 
-                        dataGridView1.Rows.Add(12);
-                        double[] frekans = { 5, 10, 20, 31.5, 50, 80, 100, 160, 315, 500, 1000, 2000, 3150 };
-                        int i = 0;
-                        foreach (double sayi in frekans)
-                        {
-                            dataGridView1[0, i].Value = sayi;
-                            i++;
-                        }
                     }
                 }
+                
             }
         }
-               
+
+        private void DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

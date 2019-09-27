@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.istek_numarasi = new System.Windows.Forms.Label();
             this.istek = new System.Windows.Forms.TextBox();
             this.cihaz_adi = new System.Windows.Forms.TextBox();
@@ -233,12 +233,12 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(644, 323);
             this.dataGridView1.TabIndex = 17;
-      
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView1_CellContentClick);
             // 
             // Column1
             // 
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.Silver;
-            this.Column1.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Silver;
+            this.Column1.DefaultCellStyle = dataGridViewCellStyle1;
             this.Column1.HeaderText = "Frekans";
             this.Column1.Name = "Column1";
             this.Column1.ReadOnly = true;
