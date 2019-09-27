@@ -86,17 +86,18 @@ namespace CMS__Calibration_Management_System_
         private void Form2_Load_1(object sender, EventArgs e)
         {
             {
-                dataGridView1.Rows.Add(13);
+                dataGridView1.Rows.Add(12);
               
                 double[] frekans = { 5, 10, 20, 31.5, 50, 80, 100, 160, 315, 500, 1000, 2000, 3150 };
                 int i = 0;
                 foreach (double sayi in frekans)
+
                 {
                     dataGridView1[0, i].Value = sayi;
                     i++;
                 }
 
-                dataGridView1.AllowUserToAddRows = false;
+                /*dataGridView1.AllowUserToAddRows = false;*/
             }
         }
         private void Kaydet_Click_1(object sender, EventArgs e)
